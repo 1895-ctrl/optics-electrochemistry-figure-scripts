@@ -36,14 +36,14 @@ Run an entry script without its check or export flag to open its GUI. Exports ar
 
 ## Reproducing the article figures
 
-The table above records the author-provided script-to-panel associations. Before public release, record the exact parameter values used for each panel and keep the corresponding exported numerical data with the article's source data or a cited data repository. The GUI defaults may not match the final published panels. Run the self-tests and check a representative export in a fresh environment. See [RELEASE_CHECKLIST.md](RELEASE_CHECKLIST.md).
+The table above records the author-provided script-to-panel associations. The GUI defaults may not match the final published panels. Numerical parameter settings needed to reproduce the article results exactly are available from the authors upon request; contact the authors using the corresponding-author details in the article. The code and its self-tests are provided here, but the repository alone does not establish exact reproduction of each final panel. See [RELEASE_CHECKLIST.md](RELEASE_CHECKLIST.md) for follow-up checks.
 
 ## Citation and license
 
-The code is licensed under the MIT License; see [LICENSE](LICENSE). Citation metadata is in [CITATION.cff](CITATION.cff). Once the final code version is assembled, archive a GitHub release in Zenodo and cite that version-specific DOI in the article. The repository, version, and DOI fields should be added to `CITATION.cff` when known.
+The code is licensed under the MIT License; see [LICENSE](LICENSE). Third-party numerical sources and their separate terms are documented in [THIRD_PARTY_DATA.md](THIRD_PARTY_DATA.md). Citation metadata is in [CITATION.cff](CITATION.cff). The public code repository is [optics-electrochemistry-figure-scripts](https://github.com/1895-ctrl/optics-electrochemistry-figure-scripts). If a versioned Zenodo archive is created later, its DOI should be added to the citation metadata and article.
 
-Suggested manuscript wording after the archive is public:
+Suggested manuscript wording:
 
-> **Code availability.** The custom code used to generate the illustrative figures in this article is available at Zenodo (version-specific DOI: [insert DOI]). The development repository is available at [insert GitHub URL].
+> **Code availability.** The custom Python code used to generate the illustrative figures in this article is publicly available at https://github.com/1895-ctrl/optics-electrochemistry-figure-scripts. Numerical parameter settings required for exact reproduction of the article results are available from the authors upon request.
 
 The statement should be adjusted to reflect the exact figures and data covered by the archived release.

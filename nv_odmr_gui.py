@@ -268,9 +268,11 @@ class Params:
     contrast: float = 20.0      # %   (Model A)
 
     # --- Model B photophysical rates (MHz) ---
-    # Inferred from Robledo et al., New J. Phys. 13, 025013 (2011), Table 1 (NV J, 300 K):
-    #   T1|3> = 13.26 ns, T1|4> = 6.89 ns, T1|5> = 178 ns, p35 = 0.14, p45 = 0.55,
-    #   p51/p52 = 1.15   ->   inferred from the cited rate data
+    # Based on Robledo et al., New J. Phys. 13, 025013 (2011), NV J at 300 K.
+    # Table 1 gives T1|3> = 13.26 ns, T1|4> = 6.89 ns, p35 = 0.14,
+    # p45 = 0.55, and p51/p52 = 1.15. The approximate T1|5> = 178 ns
+    # is estimated from the temperature-dependent singlet fit in Fig. 3(d),
+    # not reported in Table 1. The rates below are inferred from these data.
     D_es: float = 1.420         # GHz  excited-state ZFS (Fuchs 2008 / Neumann 2009: 1.42-1.43)
     E_es: float = 0.0           # MHz  excited-state transverse strain
     B1: float = 0.05            # mT   microwave-field amplitude (instrument dependent; calibrate)

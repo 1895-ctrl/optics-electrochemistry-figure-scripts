@@ -1,7 +1,7 @@
 cff-version: 1.2.0
 message: >-
-  If you use these figure scripts, cite the archived code release and the
-  associated review article when its bibliographic details are available.
+  If you use these figure scripts, cite this repository and the associated
+  review article when its bibliographic details are available.
 type: software
 authors:
   - family-names: Zhang
@@ -10,3 +10,4 @@ authors:
     given-names: Sikai
 title: Optics and electrochemistry figure scripts
 license: MIT
+repository-code: https://github.com/1895-ctrl/optics-electrochemistry-figure-scripts
