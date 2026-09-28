@@ -1,0 +1,9 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+backup_original_scripts_*/
+gaussian_test.png
+gaussian_signal_smoke_test.png

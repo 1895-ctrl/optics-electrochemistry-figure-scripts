@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: >-
+  If you use these figure scripts, cite the archived code release and the
+  associated review article when its bibliographic details are available.
+type: software
+authors:
+  - family-names: Zhang
+    given-names: Gong
+  - family-names: Lei
+    given-names: Sikai
+title: Optics and electrochemistry figure scripts
+license: MIT

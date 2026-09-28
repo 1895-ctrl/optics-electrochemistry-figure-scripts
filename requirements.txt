@@ -1,0 +1,10 @@
+# Direct Python dependencies for the supplied figure scripts.
+# Tkinter is part of the Python/Tk installation, not a pip package.
+numpy>=2.0,<3
+matplotlib>=3.8,<4
+Pillow>=10,<13
+miepython>=3,<4
+openpyxl>=3.1,<4
+pandas>=2.0,<3
+# Used by the included SPRM_Reflectivity_GUI.py companion module.
+scipy>=1.11,<2
