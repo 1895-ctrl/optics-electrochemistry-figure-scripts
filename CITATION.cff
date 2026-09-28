@@ -1,7 +1,7 @@
 cff-version: 1.2.0
 message: >-
-  If you use these figure scripts, cite this repository and the associated
-  review article when its bibliographic details are available.
+  If you use these figure scripts, cite this repository and the relevant
+  source publications listed in THIRD_PARTY_DATA.md.
 type: software
 authors:
   - family-names: Zhang

@@ -645,8 +645,9 @@ def prism_dtheta_dphi(A_deg, phi_ext_deg, n1):
 #   f       ~ 0.10   [LIT]      objective-type; set f = 0 for prism-type
 #   d_stray = 1000 nm [ASSUMED] the long decay constant is geometry- and
 #             sample-dependent (it is NOT a universal number); 1000 nm is only
-#             a placeholder. Calibrate it on YOUR system -- e.g. with the
-#             index-matched fluorescent-bead method of Mattheyses & Axelrod,
+#             an illustrative value. Calibrate it for the experimental setup,
+#             for example using the index-matched fluorescent-bead method of
+#             Mattheyses & Axelrod,
 #             or a step-height calibration slide.
 
 def far_field_metrics(d_nm, f, d_stray_nm):

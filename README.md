@@ -32,18 +32,12 @@ python gaussian_signal_gui.py --smoke-test --output gaussian_test.png
 
 Activate the virtual environment before installing or running these commands. In Windows PowerShell, run `.\.venv\Scripts\Activate.ps1`; on macOS and Linux, run `source .venv/bin/activate`. Tk is supplied with many Python distributions but may require a separate operating-system package on Linux.
 
-Run an entry script without its check or export flag to open its GUI. Exports are written to the path selected in the GUI unless a command-line output path is supplied. The release checks were run with Python 3.14.7, NumPy 2.5.3, Matplotlib 3.11.2, Pillow 12.3.0, miepython 3.3.0, openpyxl 3.1.5, pandas 2.3.3, and SciPy 1.18.1. The `requirements.txt` file lists the direct Python dependencies. Some scripts use optional fonts; if they are unavailable, the output uses a fallback font.
+Run an entry script without its check or export flag to open its GUI. Exports are written to the path selected in the GUI unless a command-line output path is supplied. The scripts were tested with Python 3.14.7, NumPy 2.5.3, Matplotlib 3.11.2, Pillow 12.3.0, miepython 3.3.0, openpyxl 3.1.5, pandas 2.3.3, and SciPy 1.18.1. The `requirements.txt` file lists the direct Python dependencies. Some scripts use optional fonts; if they are unavailable, the output uses a fallback font.
 
-## Reproducing the article figures
+## Reproducibility
 
-The table above records the author-provided script-to-panel associations. The GUI defaults may not match the final published panels. Numerical parameter settings needed to reproduce the article results exactly are available from the authors upon request; contact the authors using the corresponding-author details in the article. The code and its self-tests are provided here, but the repository alone does not establish exact reproduction of each final panel. See [RELEASE_CHECKLIST.md](RELEASE_CHECKLIST.md) for follow-up checks.
+The table above maps the scripts to panels in the associated review article. Default settings are illustrative and may differ from those used for the final article panels. Numerical settings required for exact reproduction are available from the corresponding authors upon request. See [REPRODUCIBILITY.md](REPRODUCIBILITY.md) for the scope of the code and its validation.
 
 ## Citation and license
 
-The code is licensed under the MIT License; see [LICENSE](LICENSE). Third-party numerical sources and their separate terms are documented in [THIRD_PARTY_DATA.md](THIRD_PARTY_DATA.md). Citation metadata is in [CITATION.cff](CITATION.cff). The public code repository is [optics-electrochemistry-figure-scripts](https://github.com/1895-ctrl/optics-electrochemistry-figure-scripts). If a versioned Zenodo archive is created later, its DOI should be added to the citation metadata and article.
-
-Suggested manuscript wording:
-
-> **Code availability.** The custom Python code used to generate the illustrative figures in this article is publicly available at https://github.com/1895-ctrl/optics-electrochemistry-figure-scripts. Numerical parameter settings required for exact reproduction of the article results are available from the authors upon request.
-
-The statement should be adjusted to reflect the exact figures and data covered by the archived release.
+This code is released under the [MIT License](LICENSE). Citation details for Gong Zhang and Sikai Lei are provided in [CITATION.cff](CITATION.cff). Third-party numerical sources and their separate terms are documented in [THIRD_PARTY_DATA.md](THIRD_PARTY_DATA.md). Please also cite the relevant original publications when using their data.
